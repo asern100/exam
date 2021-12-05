@@ -162,7 +162,7 @@ export const questions =
         ],
     },
     {
-        questionText: 'يجب تخليل اللحية الخفيفة التي تظهر البشرة من تحته',
+        questionText: 'يجب تخليل اللحية الخفيفة التي تظهر البشرة من تحتها',
         answerOptions: [
             { answerText: 'صح', isCorrect: true },
             { answerText: 'خطأ', isCorrect: false },
