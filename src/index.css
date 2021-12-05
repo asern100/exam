@@ -15,6 +15,7 @@ body {
 body {
   background-color: #8E9C91;
   display: flex;
+  
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -22,20 +23,24 @@ body {
 
 .app {
   background-color: #5A9865;
-  width: 450px;
-  min-height: 200px;
-  height: min-content;
+  width: 300px;
+  height: 300px;
+  
   border-radius: 15px;
   padding: 20px;
   box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+ 
+  
 }
 
 .score-section {
   display: flex;
   font-size: 24px;
   align-items: center;
+  justify-content: center;
+  margin:auto auto
 }
 
 /* QUESTION/TIMER/LEFT SECTION */
